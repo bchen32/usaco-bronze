@@ -4,6 +4,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.HashMap;
 
 public class SecretCode {
 
@@ -13,6 +14,8 @@ public class SecretCode {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("scode.out")));
 		String origString = in.readLine();
 		System.out.println(origString);
+		HashMap<String, Integer> prevStrings = new HashMap<String, Integer>();
+		
 		out.close();
 		in.close();
 	}
