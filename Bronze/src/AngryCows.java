@@ -13,7 +13,7 @@ public class AngryCows {
 	static int explosions = 1;
 	
 	public static void main(String[] args) throws IOException {
-//		BufferedReader in = new BufferedReader(new FileReader("D:\\bench\\eclipse\\USACO\\Bronze\\AngryCows\\5.in"));
+
 		BufferedReader in = new BufferedReader(new FileReader("angry.in"));
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("angry.out")));
 		int n = Integer.parseInt(in.readLine());
